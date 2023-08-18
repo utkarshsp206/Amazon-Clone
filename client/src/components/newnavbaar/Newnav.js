@@ -1,5 +1,6 @@
 import React from 'react'
 import "../newnavbaar/newnav.css";
+import nav from '../newnavbaar/nav.jpg'
 
 
 const Newnav = () => {
@@ -18,7 +19,7 @@ const Newnav = () => {
           <p>Amazon Pay</p>
         </div>
         <div className="right_data">
-          <img src="nav.jpg" alt="navdata" />
+          <img src={nav} alt="navdata" />
         </div>
       </div>
     </div>
