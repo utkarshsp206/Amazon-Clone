@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/footer/Footer';
 import Navbaar from './components/header/Navbaar';
 import Maincomp from './components/home/Maincomp';
 import Newnav from './components/newnavbaar/Newnav'
@@ -10,6 +11,7 @@ function App() {
     <Navbaar/>
     <Newnav/>
     <Maincomp/>
+    <Footer/>
     </>
   );
 }
