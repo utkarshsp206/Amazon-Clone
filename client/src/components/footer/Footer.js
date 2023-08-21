@@ -1,5 +1,6 @@
 import React from 'react'
 import "./footr.css"
+import logo from "../footer/amazon_PNG25.png"
 
 function Footer() {
 
@@ -37,7 +38,7 @@ function Footer() {
               </div>
         </div>
           <div className="lastdetails">
-              <img src="./amazon_PNG25.png" alt="logo" />
+              <img src={logo} alt="logo" />
               <p>Conditions of Use & Sale &nbsp; &nbsp;&nbsp;  Privacy Notice  &nbsp; &nbsp;&nbsp; Interest-Based Ads  &nbsp; &nbsp;&nbsp;  © 1996-{year}, Amazon.com, Inc. or its affiliates</p>
           </div>
     </footer>
