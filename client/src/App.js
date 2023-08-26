@@ -1,4 +1,6 @@
 import './App.css';
+import Buynow from './components/buynow/Buynow';
+import Cart from './components/cart/Cart';
 import Footer from './components/footer/Footer';
 import Navbaar from './components/header/Navbaar';
 import Maincomp from './components/home/Maincomp';
@@ -17,6 +19,8 @@ function App() {
       <Route path="/"  element={<Maincomp/> } />
       <Route path="/login"  element={<Sign_in/> } />
       <Route path="/register"  element={<SIgnUp/> } />
+      <Route path="/getproductsone/:id"  element={<Cart/> } />
+      <Route path="/buynow"  element={<Buynow/> } />
     </Routes>
     <Footer/>
     </>
