@@ -23,7 +23,7 @@ function Buynow() {
                         <h3 className='differentprice'> ₹ 4049.00</h3>
                         <p className='unusuall'>Usually dispatched in 8 days.</p>
                         <p>Eligible for free Delivery</p>
-                        <img src="https://m.media-amazon.com/images/G/31/marketing/fba/fba-badge_18px-2px._CB485942108_.png" alt="" />
+              <img src="https://d2gtv76wnx4goc.cloudfront.net/uploads/amazonsafety/amazon-fulfillment-logo-color.png" alt="" />
                         <Option/>
                       </div>
                       <h3 className='item_price'>₹4049.00</h3>
